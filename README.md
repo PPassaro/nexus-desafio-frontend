@@ -1,46 +1,33 @@
-# Getting Started with Create React App
+# Desafio Frontend - Nexus
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Construa um aplicativo gerador de conselhos aleatório utilizando a [API Advice Slip](https://api.adviceslip.com), seguindo o melhor possível os designs encontrados na pasta `/design`. Nela estão salvas em JPG as versões para dispositivos móveis e desktop do design.
 
-## Available Scripts
+As informações de estilo (como paleta de cores e fontes) estão no arquivo arquivo `style-guide.md`.
 
-In the project directory, you can run:
+**Requisitos:**
 
-### `npm start`
+- Responsividade para dispositivos móveis e desktop.
+- Todos os elementos interativos na página devem possuir estado de hoover.
+- Ao clicar no ícone de dado, um novo conselho deverá ser gerado.
+- A aplicação deve ser escrita em Typescript.
+- O código deve ser compartilhado conosco através de um repositório Git.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+**Bonus:**
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Utilize Material UI ou outro framework de UI para estilizar a aplicação.
+- Forneça um README com instruções de como rodar o projeto.
+- Desenvolva uma **nova** página, com uma ou mais funcionalidades adicionais:
+  - Buscar por conselhos específicos, de acordo com o ID numérico.
+    - Informar ao usuário quando nenhum conselho for encontrado.
+  - Buscar por conselhos contendo termos específicos.
+    - Informar ao usuário quando nenhum conselho for encontrado.
+    - Exibir o total de conselhos encontrados.
+  - Permitir a navegação entre os conselhos (exemplo: para o próximo, anterior).
+- Adicione animações
 
-### `npm test`
+  > 📃 **Observações:**
+  Para o bonus, o design da aplicação não é um requisito fundamental, mas é importante que a interface seja funcional e fácil de usar.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Onde encontrar tudo
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Na pasta `/images` você encontrará os assets necessários para o desafio. Os assets já estão otimizados.
