@@ -19,7 +19,7 @@ export const CardContainer = styled.section`
     height: auto;
 
     @media (max-width: 720px){
-      width: calc(100vw - 6rem);
+      width: calc(100vw - 2.5rem);
       margin: auto auto;
     }
 
@@ -40,7 +40,6 @@ export const CardContainer = styled.section`
 
     & > img {
       width: calc(100% - 5rem);
-
     }
 
     button {

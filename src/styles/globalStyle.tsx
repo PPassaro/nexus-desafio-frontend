@@ -14,14 +14,12 @@ export const GlobalStyle = createGlobalStyle`
 
 *{
     padding: 0;
-    margin: 0;
+    margin:0;
     box-sizing: border-box;
 }
 
 html{
     font-family:'Manrope',sans-serif ;
-    max-width: 1440px;
-    min-width:375px;
 
     @media (max-width: 1080px){
         font-size: 95%;
