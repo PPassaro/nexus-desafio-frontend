@@ -20,7 +20,7 @@ export const CardContainer = styled.section`
 
     @media (max-width: 720px){
       width: calc(100vw - 2.5rem);
-      margin: auto auto;
+      margin: auto;
     }
 
     h1 {
